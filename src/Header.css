@@ -1,0 +1,31 @@
+.page-width {
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header {
+    background: var(--main-color);
+    font-size: 30px;
+    color: white;
+    font-family: var(--main-font);
+    font-weight: bold;
+    text-align: left;
+    height: 70px;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+
+.header .logo {
+    vertical-align: center;
+    height: 50px;
+    padding: 10px;
+    display: inline-block;
+}
+
+.header .text {
+    color: white;
+    display: inline-block;
+    vertical-align: center;
+}
